@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ProyectoAppMovilesBimestreII"
         tools:targetApi="31">
         <activity
+            android:name=".NuevoReporteActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReporteActivity"
             android:exported="false" />
         <activity
