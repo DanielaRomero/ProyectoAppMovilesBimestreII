@@ -35,6 +35,7 @@ class HomeActivity : AppCompatActivity() {
 
         botonLogOut.setOnClickListener(){
             FirebaseAuth.getInstance().signOut()
+            onBackPressed()
         }
 
 
