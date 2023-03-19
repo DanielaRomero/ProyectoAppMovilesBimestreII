@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color black
+color colorAccent
+color colorPrimario
+color colorPrimarioOscuro
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_logout
+id btn_signUp
+id btn_singin
+id et_email
+id et_password
+id tv_email
+id tv_provider
+layout activity_auth
+layout activity_home
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style Theme.ProyectoAppMovilesBimestreII
+xml backup_rules
+xml data_extraction_rules
