@@ -2693,6 +2693,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable a1
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3027,8 +3028,11 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
 id btn_logout
+id btn_notificacion
+id btn_nuevo_reporte
 id btn_signUp
 id btn_singin
+id btn_usuario
 id buttonPanel
 id button_continue
 id button_create
@@ -3598,6 +3602,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth
 layout activity_home
+layout activity_noticia
+layout activity_nuevo_reporte
+layout activity_reporte
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3986,6 +3993,8 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string notificaciones
+string nuevo_reporte
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3999,6 +4008,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string usuario
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
