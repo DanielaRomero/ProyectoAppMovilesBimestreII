@@ -1,5 +1,6 @@
 package com.example.proyectoappmovilesbimestreii
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import java.lang.reflect.Type
 import java.text.FieldPosition
 import android.widget.TextView
+import androidx.core.os.persistableBundleOf
+import androidx.core.view.indices
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 
 class RV_Adaptador_Reporte(
@@ -24,6 +27,7 @@ class RV_Adaptador_Reporte(
         val parroquia:TextView
         val prioridad:TextView
         val ubicacion:TextView
+        val borrar:Button
 
         init {
 
@@ -34,7 +38,14 @@ class RV_Adaptador_Reporte(
             parroquia = view.findViewById(R.id.tv_reporte_parroquia)
             prioridad = view.findViewById(R.id.tv_reporte_prioridad)
             ubicacion = view.findViewById(R.id.tv_reporte_ubicacion)
+            borrar = view.findViewById(R.id.btn_reporte_borrar)
+            borrar.setOnClickListener { borrar(id.text.toString().toInt()) }
         }
+
+        private fun borrar(id:Int){
+            contexto.borrar(id, recyclerView)
+        }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -46,7 +57,7 @@ class RV_Adaptador_Reporte(
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val reporteActual = this.lista[position]
-        holder.id.text=reporteActual.id.toString()
+        holder.id.text=position.toString()
         holder.descripcion.text = reporteActual.descripcion
         holder.estado.text = reporteActual.estadoActual
         holder.fecha.text = reporteActual.fecha

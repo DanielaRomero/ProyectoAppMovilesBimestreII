@@ -21,12 +21,14 @@ drawable ic_launcher_foreground
 id btn_logout
 id btn_notificacion
 id btn_nuevo_reporte
+id btn_reporte_borrar
 id btn_signUp
 id btn_singin
 id btn_usuario
 id et_email
 id et_password
 id guideline
+id guideline10
 id guideline2
 id guideline4
 id guideline5

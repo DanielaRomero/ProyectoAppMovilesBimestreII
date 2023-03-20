@@ -45,4 +45,9 @@ class ReporteActivity : AppCompatActivity() {
         recyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
         adapdtador.notifyDataSetChanged()
     }
+
+    fun borrar(id:Int,recyclerView: RecyclerView){
+        datosQuemados.removeAt(id)
+        inicializarRecyvlerView(datosQuemados, recyclerView)
+    }
 }
