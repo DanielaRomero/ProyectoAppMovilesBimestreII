@@ -66,6 +66,7 @@
             android:text="@string/nuevo_reporte" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_reporte"
             android:layout_width="match_parent"
             android:layout_height="294dp" />
 

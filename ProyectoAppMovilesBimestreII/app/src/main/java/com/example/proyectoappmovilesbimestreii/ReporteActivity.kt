@@ -1,7 +1,9 @@
 package com.example.proyectoappmovilesbimestreii
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.RecyclerView
 
 class ReporteActivity : AppCompatActivity() {
     val datosQuemados = arrayListOf(
@@ -21,10 +23,26 @@ class ReporteActivity : AppCompatActivity() {
             ,"N","2020,10,10","A",12.5,58.8)
     )
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reporte)
 
+        val  recyclerView = findViewById<RecyclerView>(R.id.rv_reporte)
+        inicializarRecyvlerView(datosQuemados,recyclerView)
 
+
+
+
+    }
+
+    fun inicializarRecyvlerView(lista:ArrayList<Reporte>,recyclerView: RecyclerView){
+        val adapdtador = RV_Adaptador_Reporte(
+            this,lista,recyclerView
+        )
+        recyclerView.adapter = adapdtador
+        recyclerView.itemAnimator = androidx.recyclerview.widget.DefaultItemAnimator()
+        recyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
+        adapdtador.notifyDataSetChanged()
     }
 }

@@ -2692,7 +2692,11 @@ int dimen tooltip_precise_anchor_threshold 0x7f0602d0
 int dimen tooltip_vertical_padding 0x7f0602d1
 int dimen tooltip_y_offset_non_touch 0x7f0602d2
 int dimen tooltip_y_offset_touch 0x7f0602d3
-int drawable a1 0x7f070029
+int drawable a2 0x7f07010a
+int drawable a3 0x7f07010b
+int drawable a4 0x7f07010c
+int drawable a5 0x7f07010d
+int drawable a6 0x7f07010e
 int drawable abc_ab_share_pack_mtrl_alpha 0x7f07002a
 int drawable abc_action_bar_item_background_material 0x7f07002b
 int drawable abc_btn_borderless_material 0x7f07002c
@@ -3165,6 +3169,14 @@ int id graph_wrap 0x7f0800f4
 int id group_divider 0x7f0800f5
 int id grouping 0x7f0800f6
 int id groups 0x7f0800f7
+int id guideline 0x7f08023e
+int id guideline2 0x7f08023f
+int id guideline4 0x7f080240
+int id guideline5 0x7f080241
+int id guideline6 0x7f080242
+int id guideline7 0x7f080243
+int id guideline8 0x7f080244
+int id guideline9 0x7f080245
 int id header 0x7f0800f8
 int id header_text 0x7f0800f9
 int id header_title 0x7f0800fa
@@ -3191,6 +3203,7 @@ int id invisible_frame 0x7f08010e
 int id inward 0x7f08010f
 int id italic 0x7f080110
 int id item_touch_helper_previous_elevation 0x7f080111
+int id iv_reporte 0x7f080246
 int id jumpToEnd 0x7f080112
 int id jumpToStart 0x7f080113
 int id labeled 0x7f080114
@@ -3329,6 +3342,7 @@ int id right_side 0x7f080198
 int id root 0x7f080199
 int id rounded 0x7f08019a
 int id row_index_key 0x7f08019b
+int id rv_reporte 0x7f080247
 int id save_non_transition_alpha 0x7f08019c
 int id save_overlay_view 0x7f08019d
 int id sawtooth 0x7f08019e
@@ -3462,6 +3476,13 @@ int id trouble_signing_in 0x7f08021d
 int id trouble_signing_in_possible_fixes 0x7f08021e
 int id tv_email 0x7f08021f
 int id tv_provider 0x7f080220
+int id tv_reporte_descripcion 0x7f080248
+int id tv_reporte_estado 0x7f080249
+int id tv_reporte_fecha 0x7f08024a
+int id tv_reporte_id 0x7f08024b
+int id tv_reporte_parroquia 0x7f08024c
+int id tv_reporte_prioridad 0x7f08024d
+int id tv_reporte_ubicacion 0x7f08024e
 int id unchecked 0x7f080221
 int id uniform 0x7f080222
 int id unlabeled 0x7f080223
@@ -3648,6 +3669,7 @@ int layout fui_register_email_layout 0x7f0b0049
 int layout fui_welcome_back_email_link_prompt_layout 0x7f0b004a
 int layout fui_welcome_back_idp_prompt_layout 0x7f0b004b
 int layout fui_welcome_back_password_prompt_layout 0x7f0b004c
+int layout item_reporte 0x7f0b0093
 int layout m3_alert_dialog 0x7f0b004d
 int layout m3_alert_dialog_actions 0x7f0b004e
 int layout m3_alert_dialog_title 0x7f0b004f

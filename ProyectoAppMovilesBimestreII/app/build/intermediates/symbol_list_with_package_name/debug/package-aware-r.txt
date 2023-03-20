@@ -2693,7 +2693,11 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
-drawable a1
+drawable a2
+drawable a3
+drawable a4
+drawable a5
+drawable a6
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3166,6 +3170,14 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline
+id guideline2
+id guideline4
+id guideline5
+id guideline6
+id guideline7
+id guideline8
+id guideline9
 id header
 id header_text
 id header_title
@@ -3192,6 +3204,7 @@ id invisible_frame
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_reporte
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3330,6 +3343,7 @@ id right_side
 id root
 id rounded
 id row_index_key
+id rv_reporte
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3463,6 +3477,13 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tv_email
 id tv_provider
+id tv_reporte_descripcion
+id tv_reporte_estado
+id tv_reporte_fecha
+id tv_reporte_id
+id tv_reporte_parroquia
+id tv_reporte_prioridad
+id tv_reporte_ubicacion
 id unchecked
 id uniform
 id unlabeled
@@ -3649,6 +3670,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout item_reporte
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
