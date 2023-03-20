@@ -34,9 +34,12 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
 
   @NonNull
   public final EditText etTipoProblema;
+<<<<<<< Updated upstream
 
   @NonNull
   public final FragmentContainerView map;
+=======
+>>>>>>> Stashed changes
 
   @NonNull
   public final Switch switch1;
@@ -58,16 +61,25 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
 
   private ActivityNuevoReporteBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton btnAtras, @NonNull EditText etDescripcion, @NonNull EditText etParroquia,
+<<<<<<< Updated upstream
       @NonNull EditText etTipoProblema, @NonNull FragmentContainerView map, @NonNull Switch switch1,
       @NonNull TextView tvDescripcion, @NonNull TextView tvNuevoReporte,
       @NonNull TextView tvParroquia, @NonNull TextView tvTipoProblema,
       @NonNull TextView tvUbicacion) {
+=======
+      @NonNull EditText etTipoProblema, @NonNull Switch switch1, @NonNull TextView tvDescripcion,
+      @NonNull TextView tvNuevoReporte, @NonNull TextView tvParroquia,
+      @NonNull TextView tvTipoProblema, @NonNull TextView tvUbicacion) {
+>>>>>>> Stashed changes
     this.rootView = rootView;
     this.btnAtras = btnAtras;
     this.etDescripcion = etDescripcion;
     this.etParroquia = etParroquia;
     this.etTipoProblema = etTipoProblema;
+<<<<<<< Updated upstream
     this.map = map;
+=======
+>>>>>>> Stashed changes
     this.switch1 = switch1;
     this.tvDescripcion = tvDescripcion;
     this.tvNuevoReporte = tvNuevoReporte;
@@ -127,12 +139,15 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< Updated upstream
       id = R.id.map;
       FragmentContainerView map = ViewBindings.findChildViewById(rootView, id);
       if (map == null) {
         break missingId;
       }
 
+=======
+>>>>>>> Stashed changes
       id = R.id.switch1;
       Switch switch1 = ViewBindings.findChildViewById(rootView, id);
       if (switch1 == null) {
@@ -170,7 +185,11 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
       }
 
       return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras, etDescripcion,
+<<<<<<< Updated upstream
           etParroquia, etTipoProblema, map, switch1, tvDescripcion, tvNuevoReporte, tvParroquia,
+=======
+          etParroquia, etTipoProblema, switch1, tvDescripcion, tvNuevoReporte, tvParroquia,
+>>>>>>> Stashed changes
           tvTipoProblema, tvUbicacion);
     }
     String missingId = rootView.getResources().getResourceName(id);
