@@ -22,7 +22,12 @@ class MapaDesastresActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mapa_desastres)
         solicitarPermisos()
         iniciarLogicaMapa()
-
+        val altitud = intent.getDoubleArrayExtra("coordenadas")
+        if (altitud != null) {
+            irUbicacion(altitud.get(0),altitud.get(1))
+        }else{
+            Log.i("test",altitud.toString())
+        }
     }
 
     fun irUbicacion(latitud: Double, altitud:Double){

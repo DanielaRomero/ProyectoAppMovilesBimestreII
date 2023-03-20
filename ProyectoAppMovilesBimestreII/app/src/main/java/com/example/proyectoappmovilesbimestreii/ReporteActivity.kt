@@ -1,9 +1,12 @@
 package com.example.proyectoappmovilesbimestreii
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.SearchView
 import androidx.recyclerview.widget.RecyclerView
 import java.util.*
@@ -34,6 +37,11 @@ class ReporteActivity : AppCompatActivity() {
         val  recyclerView = findViewById<RecyclerView>(R.id.rv_reporte)
         inicializarRecyvlerView(datosQuemados,recyclerView)
 
+        val btnNoticias = findViewById<ImageButton>(R.id.btn_notificacion)
+        btnNoticias.setOnClickListener{
+            irActividad(ReportesGeneradosActivity::class.java)
+        }
+
     }
 
     fun inicializarRecyvlerView(lista:ArrayList<Reporte>,recyclerView: RecyclerView){
@@ -50,4 +58,14 @@ class ReporteActivity : AppCompatActivity() {
         datosQuemados.removeAt(id)
         inicializarRecyvlerView(datosQuemados, recyclerView)
     }
+
+
+    fun irActividad(
+        clase: Class<*>
+    ) {
+        val intent = Intent(this,clase)
+        startActivity(intent)
+    }
+
+
 }

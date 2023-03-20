@@ -4,29 +4,36 @@
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_nuevo_reporte.xml"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\activity_reporte.xml",
-        "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_reporte.xml"
-=======
-        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_reportes_generados.xml",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reportes_generados.xml"
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_nuevo_reporte.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_nuevo_reporte.xml"
     },
     {
-        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_reporte.xml",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reporte.xml"
->>>>>>> Stashed changes
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_mapa_desastres.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_mapa_desastres.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\activity_reporte.xml",
+        "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_reporte.xml"
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\activity_maps.xml",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_reportes_generados.xml",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reportes_generados.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\activity_home.xml",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\activity_reportes_generados.xml",
+        "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_reportes_generados.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\item_noticia.xml",
+        "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\item_noticia.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/item_noticia.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/item_noticia.xml"
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:\\layout\\item_reporte.xml",
