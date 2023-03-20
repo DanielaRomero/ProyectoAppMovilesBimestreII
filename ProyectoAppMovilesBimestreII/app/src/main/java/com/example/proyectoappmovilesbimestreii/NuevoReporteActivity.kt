@@ -2,6 +2,7 @@ package com.example.proyectoappmovilesbimestreii
 
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -34,7 +35,6 @@ class NuevoReporteActivity : AppCompatActivity() {
             if (googleMap != null) {
                 mapa = googleMap
                 establecerConfiguracionMapa()
-
                 escucharListeners()
 
             }
@@ -51,24 +51,16 @@ class NuevoReporteActivity : AppCompatActivity() {
                 )
             val tienePermisos = permisosFineLocation == PackageManager.PERMISSION_GRANTED
             if (tienePermisos) {
-                mapa.isMyLocationEnabled = true //  tenemos permisos
+                mapa.isMyLocationEnabled = true
                 uiSettings.isMyLocationButtonEnabled = true
             }
-            uiSettings.isZoomControlsEnabled = true  // no tenemos aun permisos
+            uiSettings.isZoomControlsEnabled = true
         }
 
     }
 
 
     fun escucharListeners(){
-        mapa.setOnPolygonClickListener {
-            Log.i("mapa", "setOnPolygonClickListener ${it}")
-            it.tag // ID
-        }
-        mapa.setOnPolylineClickListener {
-            Log.i("mapa", "setOnPolylineClickListener ${it}")
-            it.tag // ID
-        }
         mapa.setOnMarkerClickListener {
             Log.i("mapa", "setOnMarkerClickListener ${it}")
             it.tag // ID
@@ -85,14 +77,6 @@ class NuevoReporteActivity : AppCompatActivity() {
         }
     }
 
-
-    fun anadirMarcador(latLng: LatLng, title: String): Marker {
-        return mapa.addMarker(
-            MarkerOptions()
-                .position(latLng)
-                .title(title)
-        )!!
-    }
 
 
     fun solicitarPermisos(){
