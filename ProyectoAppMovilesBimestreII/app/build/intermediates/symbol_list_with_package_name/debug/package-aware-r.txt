@@ -3151,8 +3151,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
-id editTextTextPersonName3
 id edit_phone_number
 id edit_query
 id elastic
@@ -3168,9 +3166,11 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_descripcion
 id et_email
 id et_parroquia
 id et_password
+id et_tipo_problema
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3459,6 +3459,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id sv_reporte
 id switch1
 id tabMode
 id tag_accessibility_actions
@@ -3482,7 +3483,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3513,6 +3513,7 @@ id transition_transform
 id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
+id tv_descripcion
 id tv_email
 id tv_nuevo_reporte
 id tv_parroquia
@@ -3849,8 +3850,12 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
+string denos_una_descripci_n_del_problema
+string descripci_n
 string error_a11y_label
 string error_icon_content_description
+string escriba_el_tipo_de_problema
+string escriba_su_parroquia
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -3860,6 +3865,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string firebase_web_host
+string flecha_atras
 string fui_accessibility_logo
 string fui_auto_verified
 string fui_button_text_save
@@ -4060,6 +4066,8 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string notificaciones
 string nuevo_reporte
+string nuevo_reporte_mayus
+string parroquia_mayus
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -4073,7 +4081,9 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string tipo_de_problema_mayus
 string title_activity_maps
+string ubicacion_mayus
 string usuario
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

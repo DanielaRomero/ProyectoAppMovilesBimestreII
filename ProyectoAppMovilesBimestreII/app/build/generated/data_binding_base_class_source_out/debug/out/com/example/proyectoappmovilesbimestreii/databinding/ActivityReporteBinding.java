@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -33,14 +34,19 @@ public final class ActivityReporteBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rvReporte;
 
+  @NonNull
+  public final SearchView svReporte;
+
   private ActivityReporteBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton btnNotificacion, @NonNull Button btnNuevoReporte,
-      @NonNull ImageButton btnUsuario, @NonNull RecyclerView rvReporte) {
+      @NonNull ImageButton btnUsuario, @NonNull RecyclerView rvReporte,
+      @NonNull SearchView svReporte) {
     this.rootView = rootView;
     this.btnNotificacion = btnNotificacion;
     this.btnNuevoReporte = btnNuevoReporte;
     this.btnUsuario = btnUsuario;
     this.rvReporte = rvReporte;
+    this.svReporte = svReporte;
   }
 
   @Override
@@ -94,8 +100,14 @@ public final class ActivityReporteBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.sv_reporte;
+      SearchView svReporte = ViewBindings.findChildViewById(rootView, id);
+      if (svReporte == null) {
+        break missingId;
+      }
+
       return new ActivityReporteBinding((ConstraintLayout) rootView, btnNotificacion,
-          btnNuevoReporte, btnUsuario, rvReporte);
+          btnNuevoReporte, btnUsuario, rvReporte, svReporte);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

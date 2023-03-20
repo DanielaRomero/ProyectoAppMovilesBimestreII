@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.proyectoappmovilesbimestreii.R;
@@ -26,19 +27,22 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
   public final ImageButton btnAtras;
 
   @NonNull
-  public final EditText editTextTextPersonName;
-
-  @NonNull
-  public final EditText editTextTextPersonName3;
+  public final EditText etDescripcion;
 
   @NonNull
   public final EditText etParroquia;
 
   @NonNull
+  public final EditText etTipoProblema;
+
+  @NonNull
+  public final FragmentContainerView map;
+
+  @NonNull
   public final Switch switch1;
 
   @NonNull
-  public final TextView textView5;
+  public final TextView tvDescripcion;
 
   @NonNull
   public final TextView tvNuevoReporte;
@@ -53,18 +57,19 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
   public final TextView tvUbicacion;
 
   private ActivityNuevoReporteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnAtras, @NonNull EditText editTextTextPersonName,
-      @NonNull EditText editTextTextPersonName3, @NonNull EditText etParroquia,
-      @NonNull Switch switch1, @NonNull TextView textView5, @NonNull TextView tvNuevoReporte,
+      @NonNull ImageButton btnAtras, @NonNull EditText etDescripcion, @NonNull EditText etParroquia,
+      @NonNull EditText etTipoProblema, @NonNull FragmentContainerView map, @NonNull Switch switch1,
+      @NonNull TextView tvDescripcion, @NonNull TextView tvNuevoReporte,
       @NonNull TextView tvParroquia, @NonNull TextView tvTipoProblema,
       @NonNull TextView tvUbicacion) {
     this.rootView = rootView;
     this.btnAtras = btnAtras;
-    this.editTextTextPersonName = editTextTextPersonName;
-    this.editTextTextPersonName3 = editTextTextPersonName3;
+    this.etDescripcion = etDescripcion;
     this.etParroquia = etParroquia;
+    this.etTipoProblema = etTipoProblema;
+    this.map = map;
     this.switch1 = switch1;
-    this.textView5 = textView5;
+    this.tvDescripcion = tvDescripcion;
     this.tvNuevoReporte = tvNuevoReporte;
     this.tvParroquia = tvParroquia;
     this.tvTipoProblema = tvTipoProblema;
@@ -104,15 +109,9 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName3;
-      EditText editTextTextPersonName3 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName3 == null) {
+      id = R.id.et_descripcion;
+      EditText etDescripcion = ViewBindings.findChildViewById(rootView, id);
+      if (etDescripcion == null) {
         break missingId;
       }
 
@@ -122,15 +121,27 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.et_tipo_problema;
+      EditText etTipoProblema = ViewBindings.findChildViewById(rootView, id);
+      if (etTipoProblema == null) {
+        break missingId;
+      }
+
+      id = R.id.map;
+      FragmentContainerView map = ViewBindings.findChildViewById(rootView, id);
+      if (map == null) {
+        break missingId;
+      }
+
       id = R.id.switch1;
       Switch switch1 = ViewBindings.findChildViewById(rootView, id);
       if (switch1 == null) {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
+      id = R.id.tv_descripcion;
+      TextView tvDescripcion = ViewBindings.findChildViewById(rootView, id);
+      if (tvDescripcion == null) {
         break missingId;
       }
 
@@ -158,9 +169,9 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras,
-          editTextTextPersonName, editTextTextPersonName3, etParroquia, switch1, textView5,
-          tvNuevoReporte, tvParroquia, tvTipoProblema, tvUbicacion);
+      return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras, etDescripcion,
+          etParroquia, etTipoProblema, map, switch1, tvDescripcion, tvNuevoReporte, tvParroquia,
+          tvTipoProblema, tvUbicacion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
