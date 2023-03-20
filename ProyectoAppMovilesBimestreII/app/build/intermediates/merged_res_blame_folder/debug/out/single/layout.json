@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_nuevo_reporte.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_nuevo_reporte.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_reporte.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reporte.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_home.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_maps.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-mergeDebugResources-38:/layout/activity_auth.xml",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_auth.xml"
+    }
+]

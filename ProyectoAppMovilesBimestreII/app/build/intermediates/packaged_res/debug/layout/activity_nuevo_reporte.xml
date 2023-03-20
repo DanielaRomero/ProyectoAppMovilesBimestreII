@@ -4,6 +4,136 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     tools:context=".NuevoReporteActivity">
 
+=======
+    android:background="@color/background"
+    tools:context=".NuevoReporteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_atras"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/colorAccent"
+            android:contentDescription="@string/flecha_atr_s"
+            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_nuevo_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevo_reporte_mayus"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_tipo_problema"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_de_problema"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_tipo_problema"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/tipo_de_problema_minus"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/tv_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ubicacion"
+            android:textSize="20sp" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            tools:context=".MapsActivity" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/tv_parroquia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parroquia"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_parroquia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/parroquia_minus"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/descripcion_minus"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Switch
+            android:id="@+id/sw_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Reporte Anónimo" />
+
+        <Button
+            android:id="@+id/btn_enviar_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+
+    </LinearLayout>
+>>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>

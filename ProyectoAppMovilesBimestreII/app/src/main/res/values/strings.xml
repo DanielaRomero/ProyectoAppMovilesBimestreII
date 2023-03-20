@@ -3,4 +3,5 @@
     <string name="usuario">usuario</string>
     <string name="notificaciones">notificaciones</string>
     <string name="nuevo_reporte">Nuevo Reporte</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
