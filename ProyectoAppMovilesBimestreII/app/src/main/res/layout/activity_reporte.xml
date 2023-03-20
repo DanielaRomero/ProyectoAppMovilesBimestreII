@@ -37,9 +37,10 @@
                 android:layout_weight="1" />
 
             <SearchView
+                android:id="@+id/sv_reporte"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" >
+                android:layout_weight="1">
 
             </SearchView>
 
@@ -66,8 +67,9 @@
             android:text="@string/nuevo_reporte" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_reporte"
             android:layout_width="match_parent"
-            android:layout_height="294dp" />
+            android:layout_height="592dp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
