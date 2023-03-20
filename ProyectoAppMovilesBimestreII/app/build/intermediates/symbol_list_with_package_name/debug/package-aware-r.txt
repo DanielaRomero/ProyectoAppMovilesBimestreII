@@ -3058,6 +3058,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_atras
 id btn_atras_reporte
+id btn_historia_mapa
 id btn_holder
 id btn_logout
 id btn_notificacion
@@ -3205,6 +3206,7 @@ id groups
 id guideline
 id guideline10
 id guideline2
+id guideline3
 id guideline4
 id guideline5
 id guideline6
@@ -3238,6 +3240,7 @@ id invisible_frame
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_historia
 id iv_reporte
 id jumpToEnd
 id jumpToStart
@@ -3378,6 +3381,7 @@ id right_side
 id root
 id rounded
 id row_index_key
+id rv_noticia
 id rv_reporte
 id satellite
 id save_non_transition_alpha
@@ -3516,6 +3520,8 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tv_descripcion
 id tv_email
+id tv_historia_descripcion
+id tv_historia_fecha
 id tv_nuevo_reporte
 id tv_parroquia
 id tv_provider
@@ -3716,6 +3722,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout item_noticia
 layout item_reporte
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
