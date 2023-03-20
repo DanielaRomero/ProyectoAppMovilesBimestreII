@@ -42,6 +42,20 @@ class ReporteActivity : AppCompatActivity() {
             irActividad(ReportesGeneradosActivity::class.java)
         }
 
+        val botonUsuario = findViewById<ImageButton>(R.id.btn_usuario)
+        botonUsuario.setOnClickListener(){
+            //irActividad(LogOutActivity)
+        }
+
+        val botonNoticias = findViewById<ImageButton>(R.id.btn_notificacion)
+        botonNoticias.setOnClickListener(){
+            irActividad(ReportesGeneradosActivity::class.java)
+        }
+
+        val botonNuevoReporte = findViewById<Button>(R.id.btn_nuevo_reporte)
+        botonNuevoReporte.setOnClickListener(){
+            irActividad(NuevoReporteActivity::class.java)
+        }
     }
 
     fun inicializarRecyvlerView(lista:ArrayList<Reporte>,recyclerView: RecyclerView){
@@ -58,14 +72,8 @@ class ReporteActivity : AppCompatActivity() {
         datosQuemados.removeAt(id)
         inicializarRecyvlerView(datosQuemados, recyclerView)
     }
-
-
-    fun irActividad(
-        clase: Class<*>
-    ) {
+    fun irActividad(clase:Class<*>){
         val intent = Intent(this,clase)
         startActivity(intent)
     }
-
-
 }
