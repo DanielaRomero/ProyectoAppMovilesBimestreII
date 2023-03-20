@@ -138,5 +138,11 @@
             android:text="Reporte Anonimo"
             android:textColor="@color/black"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_crear_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/crear_reporte" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -50,6 +50,4 @@ class ReporteActivity : AppCompatActivity() {
         datosQuemados.removeAt(id)
         inicializarRecyvlerView(datosQuemados, recyclerView)
     }
-
-
 }

@@ -1,32 +1,36 @@
 package com.example.proyectoappmovilesbimestreii
 
-import android.content.Intent
 import android.content.pm.PackageManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.*
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
+import com.google.android.gms.maps.model.MarkerOptions
 
-class NuevoReporteActivity : AppCompatActivity() {
+class MapaDesastresActivity : AppCompatActivity() {
     private lateinit var mapa: GoogleMap
     var permisos = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_nuevo_reporte)
+        setContentView(R.layout.activity_mapa_desastres)
         solicitarPermisos()
         iniciarLogicaMapa()
 
-        val botonAtras = findViewById<ImageButton>(R.id.btn_atras)
-        botonAtras.setOnClickListener(){
-            irActividad(ReporteActivity::class.java)
-        }
     }
+
+    fun irUbicacion(latitud: Double, altitud:Double){
+        val ubicacion = LatLng(latitud, altitud)
+        val zoom = 17f
+        moverCamaraConZoom(ubicacion, zoom)
+    }
+
     fun iniciarLogicaMapa() {
         val fragmentoMapa = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -34,13 +38,11 @@ class NuevoReporteActivity : AppCompatActivity() {
             if (googleMap != null) {
                 mapa = googleMap
                 establecerConfiguracionMapa()
-
                 escucharListeners()
 
             }
         }
     }
-
     fun establecerConfiguracionMapa(){
         val contexto = this.applicationContext
         with(mapa) {
@@ -94,6 +96,12 @@ class NuevoReporteActivity : AppCompatActivity() {
         )!!
     }
 
+    fun moverCamaraConZoom(latLng: LatLng, zoom: Float = 10f){
+        mapa.moveCamera(
+            CameraUpdateFactory
+                .newLatLngZoom(latLng, zoom)
+        )
+    }
 
     fun solicitarPermisos(){
         val contexto = this.applicationContext
@@ -114,9 +122,5 @@ class NuevoReporteActivity : AppCompatActivity() {
                 1  // Codigo de peticion de los permisos
             )
         }
-    }
-    fun irActividad(clase: Class<*>){
-        val intent = Intent(this, clase)
-        startActivity(intent)
     }
 }
