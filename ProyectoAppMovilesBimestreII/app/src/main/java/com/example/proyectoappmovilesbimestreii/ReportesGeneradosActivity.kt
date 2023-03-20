@@ -6,6 +6,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.RecyclerView
 
@@ -26,6 +28,11 @@ class ReportesGeneradosActivity : AppCompatActivity() {
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_noticia)
         inicializarRecyvlerView(lista,recyclerView)
+
+        val botonRegreso = findViewById<ImageButton>(R.id.btn_atras_reporte)
+        botonRegreso.setOnClickListener(){
+            irActividad(ReporteActivity::class.java)
+        }
     }
 
 
@@ -37,5 +44,9 @@ class ReportesGeneradosActivity : AppCompatActivity() {
         recyclerView.itemAnimator = androidx.recyclerview.widget.DefaultItemAnimator()
         recyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
         adapdtador.notifyDataSetChanged()
+    }
+    fun irActividad(clase:Class<*>){
+        val intent = Intent(this,clase)
+        startActivity(intent)
     }
 }
