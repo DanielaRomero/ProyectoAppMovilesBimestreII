@@ -46,7 +46,7 @@ class AuthActivity : AppCompatActivity() {
                     .signInWithEmailAndPassword(email.text.toString(),password.text.toString())
                     .addOnCompleteListener(){
                         if(it.isSuccessful){
-                            showHome(it.result?.user?.email?:"", ProviderType.BASIC)
+                            irActividad(ReporteActivity::class.java)
                         }else{
                             showAlert()
                         }
@@ -71,5 +71,9 @@ class AuthActivity : AppCompatActivity() {
             putExtra("provider", provider.name)
         }
         startActivity(homeIntent)
+    }
+    fun irActividad(clase: Class<*>){
+        val intent = Intent(this, clase)
+        startActivity(intent)
     }
 }
