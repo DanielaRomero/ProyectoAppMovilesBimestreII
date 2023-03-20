@@ -13,12 +13,6 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ProyectoAppMovilesBimestreII</string>
     <string name="default_web_client_id" translatable="false">924261772864-toek5aumr7p9n8a6tmml0c94hdlriq91.apps.googleusercontent.com</string>
-<<<<<<< Updated upstream
-=======
-    <string name="descripcion">DESCRIPCIÓN</string>
-    <string name="descripcion_minus">Descripción</string>
-    <string name="flecha_atr_s">Flecha atrás</string>
->>>>>>> Stashed changes
     <string name="gcm_defaultSenderId" translatable="false">924261772864</string>
     <string name="google_api_key" translatable="false">AIzaSyCTR5KxARmRuatRjkghV0TxQTjv6Ba2p0k</string>
     <string name="google_app_id" translatable="false">1:924261772864:android:4d47c7f4b7dd831483b9a5</string>
@@ -26,19 +20,8 @@
     <string name="google_storage_bucket" translatable="false">proyectomoviles-2a358.appspot.com</string>
     <string name="notificaciones">notificaciones</string>
     <string name="nuevo_reporte">Nuevo Reporte</string>
-<<<<<<< Updated upstream
     <string name="project_id" translatable="false">proyectomoviles-2a358</string>
-=======
-    <string name="nuevo_reporte_mayus">NUEVO REPORTE</string>
-    <string name="parroquia">PARROQUIA</string>
-    <string name="parroquia_minus">Parroquia</string>
-    <string name="project_id" translatable="false">proyectomoviles-2a358</string>
-    <string name="tipo_de_problema">TIPO DE PROBLEMA</string>
-    <string name="tipo_de_problema_minus">Tipo de problema</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="ubicacion">UBICACIÓN</string>
-    <string name="ubicacion_minus">Ubicación</string>
->>>>>>> Stashed changes
     <string name="usuario">usuario</string>
     <style name="Theme.ProyectoAppMovilesBimestreII" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

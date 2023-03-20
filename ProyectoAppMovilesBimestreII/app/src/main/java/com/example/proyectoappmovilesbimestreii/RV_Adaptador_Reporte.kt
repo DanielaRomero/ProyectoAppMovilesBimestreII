@@ -30,7 +30,6 @@ class RV_Adaptador_Reporte(
         val borrar:Button
 
         init {
-
             id = view.findViewById(R.id.tv_reporte_id)
             descripcion = view.findViewById(R.id.tv_reporte_descripcion)
             estado = view.findViewById(R.id.tv_reporte_estado)
@@ -65,6 +64,8 @@ class RV_Adaptador_Reporte(
         holder.prioridad.text = reporteActual.prioridad
         holder.ubicacion.text = reporteActual.ubicacionX.toString() + reporteActual.ubicacionY.toString()
     }
+
+
 
     override fun getItemCount(): Int {
         return  this.lista.size

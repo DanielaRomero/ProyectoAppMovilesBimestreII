@@ -3,9 +3,11 @@ package com.example.proyectoappmovilesbimestreii
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.SearchView
 import androidx.recyclerview.widget.RecyclerView
 
 class ReporteActivity : AppCompatActivity() {
+     val txtBuscar:SearchView = findViewById(R.id.sv_reporte)
     val datosQuemados = arrayListOf(
         Reporte(1,"san bartolo","Se cayo un arbol"
         ,"N","2020,10,10","A",12.5,58.8),
@@ -22,6 +24,7 @@ class ReporteActivity : AppCompatActivity() {
         Reporte(7,"san bartolo6","Se cayo un arbol"
             ,"N","2020,10,10","A",12.5,58.8)
     )
+    lateinit var tempList:ArrayList<Reporte>
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +34,7 @@ class ReporteActivity : AppCompatActivity() {
         val  recyclerView = findViewById<RecyclerView>(R.id.rv_reporte)
         inicializarRecyvlerView(datosQuemados,recyclerView)
 
+        tempList.addAll(datosQuemados)
 
 
 
@@ -50,4 +54,6 @@ class ReporteActivity : AppCompatActivity() {
         datosQuemados.removeAt(id)
         inicializarRecyvlerView(datosQuemados, recyclerView)
     }
+
+
 }

@@ -4,7 +4,6 @@ package com.example.proyectoappmovilesbimestreii.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Switch;
@@ -27,22 +26,19 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
   public final ImageButton btnAtras;
 
   @NonNull
-  public final Button btnEnviarReporte;
+  public final EditText editTextTextPersonName;
 
   @NonNull
-  public final EditText etDescripcion;
+  public final EditText editTextTextPersonName3;
 
   @NonNull
   public final EditText etParroquia;
 
   @NonNull
-  public final EditText etTipoProblema;
+  public final Switch switch1;
 
   @NonNull
-  public final Switch swReporte;
-
-  @NonNull
-  public final TextView tvDescripcion;
+  public final TextView textView5;
 
   @NonNull
   public final TextView tvNuevoReporte;
@@ -57,19 +53,18 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
   public final TextView tvUbicacion;
 
   private ActivityNuevoReporteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnAtras, @NonNull Button btnEnviarReporte,
-      @NonNull EditText etDescripcion, @NonNull EditText etParroquia,
-      @NonNull EditText etTipoProblema, @NonNull Switch swReporte, @NonNull TextView tvDescripcion,
-      @NonNull TextView tvNuevoReporte, @NonNull TextView tvParroquia,
-      @NonNull TextView tvTipoProblema, @NonNull TextView tvUbicacion) {
+      @NonNull ImageButton btnAtras, @NonNull EditText editTextTextPersonName,
+      @NonNull EditText editTextTextPersonName3, @NonNull EditText etParroquia,
+      @NonNull Switch switch1, @NonNull TextView textView5, @NonNull TextView tvNuevoReporte,
+      @NonNull TextView tvParroquia, @NonNull TextView tvTipoProblema,
+      @NonNull TextView tvUbicacion) {
     this.rootView = rootView;
     this.btnAtras = btnAtras;
-    this.btnEnviarReporte = btnEnviarReporte;
-    this.etDescripcion = etDescripcion;
+    this.editTextTextPersonName = editTextTextPersonName;
+    this.editTextTextPersonName3 = editTextTextPersonName3;
     this.etParroquia = etParroquia;
-    this.etTipoProblema = etTipoProblema;
-    this.swReporte = swReporte;
-    this.tvDescripcion = tvDescripcion;
+    this.switch1 = switch1;
+    this.textView5 = textView5;
     this.tvNuevoReporte = tvNuevoReporte;
     this.tvParroquia = tvParroquia;
     this.tvTipoProblema = tvTipoProblema;
@@ -109,15 +104,15 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btn_enviar_reporte;
-      Button btnEnviarReporte = ViewBindings.findChildViewById(rootView, id);
-      if (btnEnviarReporte == null) {
+      id = R.id.editTextTextPersonName;
+      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName == null) {
         break missingId;
       }
 
-      id = R.id.et_descripcion;
-      EditText etDescripcion = ViewBindings.findChildViewById(rootView, id);
-      if (etDescripcion == null) {
+      id = R.id.editTextTextPersonName3;
+      EditText editTextTextPersonName3 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName3 == null) {
         break missingId;
       }
 
@@ -127,21 +122,15 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_tipo_problema;
-      EditText etTipoProblema = ViewBindings.findChildViewById(rootView, id);
-      if (etTipoProblema == null) {
+      id = R.id.switch1;
+      Switch switch1 = ViewBindings.findChildViewById(rootView, id);
+      if (switch1 == null) {
         break missingId;
       }
 
-      id = R.id.sw_reporte;
-      Switch swReporte = ViewBindings.findChildViewById(rootView, id);
-      if (swReporte == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_descripcion;
-      TextView tvDescripcion = ViewBindings.findChildViewById(rootView, id);
-      if (tvDescripcion == null) {
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
         break missingId;
       }
 
@@ -170,7 +159,7 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
       }
 
       return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras,
-          btnEnviarReporte, etDescripcion, etParroquia, etTipoProblema, swReporte, tvDescripcion,
+          editTextTextPersonName, editTextTextPersonName3, etParroquia, switch1, textView5,
           tvNuevoReporte, tvParroquia, tvTipoProblema, tvUbicacion);
     }
     String missingId = rootView.getResources().getResourceName(id);
