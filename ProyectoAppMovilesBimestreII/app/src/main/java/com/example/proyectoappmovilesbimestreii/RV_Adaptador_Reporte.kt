@@ -1,17 +1,11 @@
 package com.example.proyectoappmovilesbimestreii
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.recyclerview.widget.RecyclerView
-import java.lang.reflect.Type
-import java.text.FieldPosition
 import android.widget.TextView
-import androidx.core.os.persistableBundleOf
-import androidx.core.view.indices
-import androidx.recyclerview.widget.RecyclerView.LayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class RV_Adaptador_Reporte(
     private val contexto: ReporteActivity,

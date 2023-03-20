@@ -23,6 +23,7 @@
             android:id="@+id/btn_atras"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:backgroundTint="@color/colorAccent"
             android:contentDescription="@string/flecha_atras"
             app:srcCompat="@drawable/baseline_arrow_back_24" />
 
@@ -48,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tipo_de_problema_mayus"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <EditText
@@ -56,7 +58,9 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/escriba_el_tipo_de_problema"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <Space
             android:layout_width="match_parent"
@@ -67,15 +71,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ubicacion_mayus"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
-        <androidx.fragment.app.FragmentContainerView xmlns:map="http://schemas.android.com/apk/res-auto"
+        <fragment
             android:id="@+id/map"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            tools:context=".MapsActivity"
-            tools:layout="@layout/activity_nuevo_reporte" />
+            tools:context=".MapsActivity" />
 
         <Space
             android:layout_width="match_parent"
@@ -86,6 +90,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/parroquia_mayus"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="20sp" />
 
         <EditText
@@ -94,7 +100,9 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/escriba_su_parroquia"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <Space
             android:layout_width="match_parent"
@@ -105,6 +113,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/descripci_n"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="20sp" />
 
         <EditText
@@ -113,7 +123,9 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/denos_una_descripci_n_del_problema"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <Space
             android:layout_width="match_parent"
@@ -124,6 +136,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Reporte Anonimo"
+            android:textColor="@color/black"
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
