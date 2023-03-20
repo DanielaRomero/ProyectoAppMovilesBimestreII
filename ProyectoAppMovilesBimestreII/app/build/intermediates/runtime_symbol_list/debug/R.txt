@@ -3057,6 +3057,7 @@ int id browser_actions_menu_items 0x7f08006a
 int id browser_actions_menu_view 0x7f08006b
 int id btn_atras 0x7f08006c
 int id btn_atras_reporte 0x7f08006d
+int id btn_crear_reporte 0x7f080268
 int id btn_historia_mapa 0x7f08006e
 int id btn_holder 0x7f08006f
 int id btn_logout 0x7f080070
@@ -3521,6 +3522,7 @@ int id tv_descripcion 0x7f08023a
 int id tv_email 0x7f08023b
 int id tv_historia_descripcion 0x7f08023c
 int id tv_historia_fecha 0x7f08023d
+int id tv_id 0x7f080269
 int id tv_nuevo_reporte 0x7f08023e
 int id tv_parroquia 0x7f08023f
 int id tv_provider 0x7f080240
@@ -3673,6 +3675,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_auth 0x7f0b001c
 int layout activity_home 0x7f0b001d
+int layout activity_mapa_desastres 0x7f0b0096
 int layout activity_maps 0x7f0b001e
 int layout activity_nuevo_reporte 0x7f0b001f
 int layout activity_reporte 0x7f0b0020
@@ -3857,6 +3860,7 @@ int string common_open_on_phone 0x7f100037
 int string common_signin_button_text 0x7f100038
 int string common_signin_button_text_long 0x7f100039
 int string copy_toast_msg 0x7f10003a
+int string crear_reporte 0x7f100128
 int string default_web_client_id 0x7f10003b
 int string denos_una_descripci_n_del_problema 0x7f10003c
 int string descripci_n 0x7f10003d

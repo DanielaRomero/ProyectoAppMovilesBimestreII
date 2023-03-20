@@ -12,6 +12,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ProyectoAppMovilesBimestreII</string>
+    <string name="crear_reporte">Crear Reporte</string>
     <string name="default_web_client_id" translatable="false">924261772864-toek5aumr7p9n8a6tmml0c94hdlriq91.apps.googleusercontent.com</string>
     <string name="denos_una_descripci_n_del_problema">Denos una descripción del problema</string>
     <string name="descripci_n">DESCRIPCIÓN</string>

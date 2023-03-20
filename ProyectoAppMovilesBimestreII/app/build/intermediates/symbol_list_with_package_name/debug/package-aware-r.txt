@@ -3058,6 +3058,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_atras
 id btn_atras_reporte
+id btn_crear_reporte
 id btn_historia_mapa
 id btn_holder
 id btn_logout
@@ -3522,6 +3523,7 @@ id tv_descripcion
 id tv_email
 id tv_historia_descripcion
 id tv_historia_fecha
+id tv_id
 id tv_nuevo_reporte
 id tv_parroquia
 id tv_provider
@@ -3674,6 +3676,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth
 layout activity_home
+layout activity_mapa_desastres
 layout activity_maps
 layout activity_nuevo_reporte
 layout activity_reporte
@@ -3858,6 +3861,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string crear_reporte
 string default_web_client_id
 string denos_una_descripci_n_del_problema
 string descripci_n

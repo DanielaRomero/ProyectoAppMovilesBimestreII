@@ -4,6 +4,7 @@ package com.example.proyectoappmovilesbimestreii.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Switch;
@@ -24,6 +25,9 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
 
   @NonNull
   public final ImageButton btnAtras;
+
+  @NonNull
+  public final Button btnCrearReporte;
 
   @NonNull
   public final EditText etDescripcion;
@@ -53,12 +57,14 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
   public final TextView tvUbicacion;
 
   private ActivityNuevoReporteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnAtras, @NonNull EditText etDescripcion, @NonNull EditText etParroquia,
+      @NonNull ImageButton btnAtras, @NonNull Button btnCrearReporte,
+      @NonNull EditText etDescripcion, @NonNull EditText etParroquia,
       @NonNull EditText etTipoProblema, @NonNull Switch switch1, @NonNull TextView tvDescripcion,
       @NonNull TextView tvNuevoReporte, @NonNull TextView tvParroquia,
       @NonNull TextView tvTipoProblema, @NonNull TextView tvUbicacion) {
     this.rootView = rootView;
     this.btnAtras = btnAtras;
+    this.btnCrearReporte = btnCrearReporte;
     this.etDescripcion = etDescripcion;
     this.etParroquia = etParroquia;
     this.etTipoProblema = etTipoProblema;
@@ -100,6 +106,12 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
       id = R.id.btn_atras;
       ImageButton btnAtras = ViewBindings.findChildViewById(rootView, id);
       if (btnAtras == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_crear_reporte;
+      Button btnCrearReporte = ViewBindings.findChildViewById(rootView, id);
+      if (btnCrearReporte == null) {
         break missingId;
       }
 
@@ -157,9 +169,9 @@ public final class ActivityNuevoReporteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras, etDescripcion,
-          etParroquia, etTipoProblema, switch1, tvDescripcion, tvNuevoReporte, tvParroquia,
-          tvTipoProblema, tvUbicacion);
+      return new ActivityNuevoReporteBinding((ConstraintLayout) rootView, btnAtras, btnCrearReporte,
+          etDescripcion, etParroquia, etTipoProblema, switch1, tvDescripcion, tvNuevoReporte,
+          tvParroquia, tvTipoProblema, tvUbicacion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

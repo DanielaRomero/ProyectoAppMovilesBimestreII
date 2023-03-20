@@ -58,7 +58,7 @@ class ReporteActivity : AppCompatActivity() {
         datosQuemados.removeAt(id)
         inicializarRecyvlerView(datosQuemados, recyclerView)
     }
-<<<<<<< HEAD
+
 
     fun irActividad(
         clase: Class<*>
@@ -68,6 +68,4 @@ class ReporteActivity : AppCompatActivity() {
     }
 
 
-=======
->>>>>>> main
 }
