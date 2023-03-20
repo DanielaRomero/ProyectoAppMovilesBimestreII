@@ -28,6 +28,7 @@
     <string name="nuevo_reporte_mayus">NUEVO REPORTE</string>
     <string name="parroquia_mayus">PARROQUIA</string>
     <string name="project_id" translatable="false">proyectomoviles-2a358</string>
+    <string name="reportes_generados">REPORTES GENERADOS</string>
     <string name="tipo_de_problema_mayus">TIPO DE PROBLEMA</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="ubicacion_mayus">UBICACIÓN</string>

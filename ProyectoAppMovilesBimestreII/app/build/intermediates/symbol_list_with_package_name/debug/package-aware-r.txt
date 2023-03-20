@@ -3057,6 +3057,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_atras
+id btn_atras_reporte
 id btn_holder
 id btn_logout
 id btn_notificacion
@@ -3525,6 +3526,7 @@ id tv_reporte_id
 id tv_reporte_parroquia
 id tv_reporte_prioridad
 id tv_reporte_ubicacion
+id tv_reportes_generados
 id tv_tipo_problema
 id tv_ubicacion
 id unchecked
@@ -3670,6 +3672,7 @@ layout activity_maps
 layout activity_noticia
 layout activity_nuevo_reporte
 layout activity_reporte
+layout activity_reportes_generados
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -4074,6 +4077,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string reportes_generados
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

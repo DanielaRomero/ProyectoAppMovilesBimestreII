@@ -40,8 +40,8 @@
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\drawable\\a3.jpg"
     },
     {
-        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/layout_activity_reporte.xml.flat",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reporte.xml"
+        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/layout_activity_reportes_generados.xml.flat",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reportes_generados.xml"
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -80,10 +80,6 @@
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/layout_item_reporte.xml.flat",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/item_reporte.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -114,10 +110,6 @@
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/layout_activity_nuevo_reporte.xml.flat",
-        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_nuevo_reporte.xml"
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",

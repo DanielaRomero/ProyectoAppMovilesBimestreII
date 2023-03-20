@@ -20,6 +20,7 @@ drawable baseline_arrow_back_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id btn_atras
+id btn_atras_reporte
 id btn_logout
 id btn_notificacion
 id btn_nuevo_reporte
@@ -58,6 +59,7 @@ id tv_reporte_id
 id tv_reporte_parroquia
 id tv_reporte_prioridad
 id tv_reporte_ubicacion
+id tv_reportes_generados
 id tv_tipo_problema
 id tv_ubicacion
 layout activity_auth
@@ -66,6 +68,7 @@ layout activity_maps
 layout activity_noticia
 layout activity_nuevo_reporte
 layout activity_reporte
+layout activity_reportes_generados
 layout item_reporte
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -86,6 +89,7 @@ string nuevo_reporte
 string nuevo_reporte_mayus
 string parroquia_mayus
 string project_id
+string reportes_generados
 string tipo_de_problema_mayus
 string title_activity_maps
 string ubicacion_mayus

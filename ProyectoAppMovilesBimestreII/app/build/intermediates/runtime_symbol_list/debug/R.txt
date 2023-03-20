@@ -3056,6 +3056,7 @@ int id browser_actions_menu_item_text 0x7f080069
 int id browser_actions_menu_items 0x7f08006a
 int id browser_actions_menu_view 0x7f08006b
 int id btn_atras 0x7f08006c
+int id btn_atras_reporte 0x7f080263
 int id btn_holder 0x7f08006d
 int id btn_logout 0x7f08006e
 int id btn_notificacion 0x7f08006f
@@ -3524,6 +3525,7 @@ int id tv_reporte_id 0x7f08023c
 int id tv_reporte_parroquia 0x7f08023d
 int id tv_reporte_prioridad 0x7f08023e
 int id tv_reporte_ubicacion 0x7f08023f
+int id tv_reportes_generados 0x7f080264
 int id tv_tipo_problema 0x7f080240
 int id tv_ubicacion 0x7f080241
 int id unchecked 0x7f080242
@@ -3669,6 +3671,7 @@ int layout activity_maps 0x7f0b001e
 int layout activity_noticia 0x7f0b001f
 int layout activity_nuevo_reporte 0x7f0b0020
 int layout activity_reporte 0x7f0b0021
+int layout activity_reportes_generados 0x7f0b0095
 int layout browser_actions_context_menu_page 0x7f0b0022
 int layout browser_actions_context_menu_row 0x7f0b0023
 int layout custom_dialog 0x7f0b0024
@@ -4073,6 +4076,7 @@ int string path_password_eye_mask_strike_through 0x7f100111
 int string path_password_eye_mask_visible 0x7f100112
 int string path_password_strike_through 0x7f100113
 int string project_id 0x7f100114
+int string reportes_generados 0x7f100127
 int string search_menu_title 0x7f100115
 int string searchbar_scrolling_view_behavior 0x7f100116
 int string searchview_clear_text_content_description 0x7f100117
