@@ -4,4 +4,13 @@
     <string name="notificaciones">notificaciones</string>
     <string name="nuevo_reporte">Nuevo Reporte</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="flecha_atras">Flecha atras</string>
+    <string name="nuevo_reporte_mayus">NUEVO REPORTE</string>
+    <string name="tipo_de_problema_mayus">TIPO DE PROBLEMA</string>
+    <string name="escriba_el_tipo_de_problema">Escriba el tipo de problema</string>
+    <string name="ubicacion_mayus">UBICACIÓN</string>
+    <string name="parroquia_mayus">PARROQUIA</string>
+    <string name="escriba_su_parroquia">Escriba su parroquia</string>
+    <string name="descripci_n">DESCRIPCIÓN</string>
+    <string name="denos_una_descripci_n_del_problema">Denos una descripción del problema</string>
 </resources>
