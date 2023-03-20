@@ -14,4 +14,5 @@
     <string name="descripci_n">DESCRIPCIÓN</string>
     <string name="denos_una_descripci_n_del_problema">Denos una descripción del problema</string>
     <string name="reportes_generados">NOTICIAS</string>
+    <string name="crear_reporte">Crear Reporte</string>
 </resources>
