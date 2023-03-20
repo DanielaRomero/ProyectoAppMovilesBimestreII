@@ -13,6 +13,11 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ProyectoAppMovilesBimestreII</string>
     <string name="default_web_client_id" translatable="false">924261772864-toek5aumr7p9n8a6tmml0c94hdlriq91.apps.googleusercontent.com</string>
+    <string name="denos_una_descripci_n_del_problema">Denos una descripción del problema</string>
+    <string name="descripci_n">DESCRIPCIÓN</string>
+    <string name="escriba_el_tipo_de_problema">Escriba el tipo de problema</string>
+    <string name="escriba_su_parroquia">Escriba su parroquia</string>
+    <string name="flecha_atras">Flecha atras</string>
     <string name="gcm_defaultSenderId" translatable="false">924261772864</string>
     <string name="google_api_key" translatable="false">AIzaSyCTR5KxARmRuatRjkghV0TxQTjv6Ba2p0k</string>
     <string name="google_app_id" translatable="false">1:924261772864:android:4d47c7f4b7dd831483b9a5</string>
@@ -20,8 +25,13 @@
     <string name="google_storage_bucket" translatable="false">proyectomoviles-2a358.appspot.com</string>
     <string name="notificaciones">notificaciones</string>
     <string name="nuevo_reporte">Nuevo Reporte</string>
+    <string name="nuevo_reporte_mayus">NUEVO REPORTE</string>
+    <string name="parroquia_mayus">PARROQUIA</string>
     <string name="project_id" translatable="false">proyectomoviles-2a358</string>
+    <string name="reportes_generados">REPORTES GENERADOS</string>
+    <string name="tipo_de_problema_mayus">TIPO DE PROBLEMA</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="ubicacion_mayus">UBICACIÓN</string>
     <string name="usuario">usuario</string>
     <style name="Theme.ProyectoAppMovilesBimestreII" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
