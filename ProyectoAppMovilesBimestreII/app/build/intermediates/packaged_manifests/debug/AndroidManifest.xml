@@ -8,6 +8,8 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -68,7 +70,7 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name="com.example.proyectoappmovilesbimestreii.NuevoReporteActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.proyectoappmovilesbimestreii.ReporteActivity"
             android:exported="false" />

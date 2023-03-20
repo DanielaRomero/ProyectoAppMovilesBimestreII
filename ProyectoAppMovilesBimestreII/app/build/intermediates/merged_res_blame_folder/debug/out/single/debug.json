@@ -48,8 +48,17 @@
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\drawable_a6.jpg.flat",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\drawable\\a6.jpg"
+=======
+        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/layout_activity_reportes_generados.xml.flat",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/layout/activity_reportes_generados.xml"
+    },
+    {
+        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\layout_activity_home.xml.flat",
@@ -76,12 +85,17 @@
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout-square\\activity_noticia.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\layout_activity_maps.xml.flat",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+=======
+        "merged": "com.example.proyectoappmovilesbimestreii.app-merged_res-39:/drawable_a5.jpg.flat",
+        "source": "com.example.proyectoappmovilesbimestreii.app-main-41:/drawable/a5.jpg"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\danie\\.gradle\\daemon\\7.4\\com.example.proyectoappmovilesbimestreii.app-merged_res-39:\\layout_activity_reporte.xml.flat",

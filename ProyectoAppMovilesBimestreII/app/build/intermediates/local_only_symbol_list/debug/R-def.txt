@@ -65,7 +65,6 @@ id tv_ubicacion
 layout activity_auth
 layout activity_home
 layout activity_maps
-layout activity_noticia
 layout activity_nuevo_reporte
 layout activity_reporte
 layout activity_reportes_generados

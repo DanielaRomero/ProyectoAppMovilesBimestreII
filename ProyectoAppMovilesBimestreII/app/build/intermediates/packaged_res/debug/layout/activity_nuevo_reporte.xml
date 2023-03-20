@@ -48,6 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tipo_de_problema_mayus"
+<<<<<<< Updated upstream
+=======
+            android:textColor="@color/black"
+>>>>>>> Stashed changes
             android:textSize="20sp" />
 
         <EditText
@@ -56,7 +60,16 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/escriba_el_tipo_de_problema"
+<<<<<<< Updated upstream
             android:inputType="textPersonName" />
+=======
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+>>>>>>> Stashed changes
 
         <Space
             android:layout_width="match_parent"
@@ -67,15 +80,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ubicacion_mayus"
+<<<<<<< Updated upstream
             android:textSize="20sp" />
 
         <androidx.fragment.app.FragmentContainerView xmlns:map="http://schemas.android.com/apk/res-auto"
+=======
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <fragment
+>>>>>>> Stashed changes
             android:id="@+id/map"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="250dp"
+<<<<<<< Updated upstream
             tools:context=".MapsActivity"
             tools:layout="@layout/activity_nuevo_reporte" />
+=======
+            tools:context=".MapsActivity" />
+>>>>>>> Stashed changes
 
         <Space
             android:layout_width="match_parent"
@@ -86,6 +110,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/parroquia_mayus"
+<<<<<<< Updated upstream
+=======
+            android:textColor="@color/black"
+>>>>>>> Stashed changes
             android:textSize="20sp" />
 
         <EditText
@@ -94,7 +122,16 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/escriba_su_parroquia"
+<<<<<<< Updated upstream
             android:inputType="textPersonName" />
+=======
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+>>>>>>> Stashed changes
 
         <Space
             android:layout_width="match_parent"
@@ -105,6 +142,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/descripci_n"
+<<<<<<< Updated upstream
+=======
+            android:textColor="@color/black"
+>>>>>>> Stashed changes
             android:textSize="20sp" />
 
         <EditText
@@ -113,7 +154,12 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="@string/denos_una_descripci_n_del_problema"
+<<<<<<< Updated upstream
             android:inputType="textPersonName" />
+=======
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+>>>>>>> Stashed changes
 
         <Space
             android:layout_width="match_parent"
@@ -124,6 +170,10 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Reporte Anonimo"
+<<<<<<< Updated upstream
+=======
+            android:textColor="@color/black"
+>>>>>>> Stashed changes
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
